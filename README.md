@@ -2,9 +2,9 @@
 <p align="right">
 User guide and description
 </p>
-
+<p><font color="darkblue">
 ## Utility Installer ForMultipleVMs - A simple PowerShell Script to automate the utility installations on domain joined Virtual Machines.
-
+</font></p>
 
 ## Release Notes
 
@@ -16,9 +16,9 @@ User guide and description
 > See `Important Note` for more details.
 - This script is quite generic to support many type of utility installations.
 - The same script can also be used to UnInstall the utilities based on config value in the input file.
-- The scipt uses two ways to trigger the Installation -
- >  Invoke-Command
- >  PSTools [available here](https://docs.microsoft.com/en-us/sysinternals/downloads/pstools/)
+- The scipt uses two ways to trigger the Installation -  
+>    Invoke-Command  
+>    PSTools [available here](https://docs.microsoft.com/en-us/sysinternals/downloads/pstools/)
 
 
 ## Quick Start
