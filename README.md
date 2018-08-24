@@ -17,8 +17,8 @@ User guide and description
 - This script is quite generic to support many type of utility installations.
 - The same script can also be used to UnInstall the utilities based on config value in the input file.
 - The scipt uses two ways to trigger the Installation :
->    Invoke-Command  
->    `PsExec64.exe` of PSTools [available here](https://docs.microsoft.com/en-us/sysinternals/downloads/pstools/)
+>  Invoke-Command  
+>  `PsExec64.exe` of PSTools [available here](https://docs.microsoft.com/en-us/sysinternals/downloads/pstools/)
 
 
 ## Quick Start
