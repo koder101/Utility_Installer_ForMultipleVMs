@@ -1,0 +1,5 @@
+SourceFolder,TargetFolder,InstallerBat,TargetMachineName,IsInstall
+D:\Softwares\Rdcman,D:\Softwares\Rdcman,InstallRdcman.bat,Machine1,1
+D:\Softwares\Notepad++,D:\Softwares\Notepad++,InstallNPP.bat,Machine1,1
+D:\Softwares\Rdcman,D:\Softwares\Rdcman,InstallRdcman.bat,Machine2,1
+D:\Softwares\Notepad++,D:\Softwares\Notepad++,InstallNPP.bat,Machine2,1

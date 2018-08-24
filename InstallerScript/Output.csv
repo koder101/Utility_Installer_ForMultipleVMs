@@ -1,0 +1,5 @@
+﻿TargetMachine,Utility,Status
+Machine1,InstallRdcman.bat,Success
+Machine1,InstallNPP.bat,Success
+Machine2,InstallRdcman.bat,Success
+Machine2,InstallNPP.bat,Success
