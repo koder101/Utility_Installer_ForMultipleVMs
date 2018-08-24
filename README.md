@@ -1,5 +1,5 @@
-# Utility_Installer_ForMultipleVMs - A simple PowerShell Script to automate the utility installations on domain joined Virtual Machines.
-========================================
+# Utility Installer ForMultipleVMs - A simple PowerShell Script to automate the utility installations on domain joined Virtual Machines.
+
 
 ## Release Notes
 -------------
@@ -9,12 +9,12 @@
 ## Features
 --------
 - This utilities can be Installed silently without user intervention to click the UI.
-> - See `Important Note` for more details.
+> See `Important Note` for more details.
 - This script is quite generic to support many type of utility installations.
 - The same script can also be used to UnInstall the utilities based on config value in the input file.
 - The scipt uses two ways to trigger the Installation -
-> - Invoke-Command
-> - PSTools [available here](https://docs.microsoft.com/en-us/sysinternals/downloads/pstools/)
+> Invoke-Command
+> PSTools [available here](https://docs.microsoft.com/en-us/sysinternals/downloads/pstools/)
 
 
 ## Quick Start
@@ -44,5 +44,20 @@
 4. Some utility's silent installation works well with `Invoke-Command` and some with `PSTools`. Most of the utilities can be installed via `Invoke-Command`, if not then use the `PSTools`. For this change in the PowerShell script.
 
 
+## Contributing
 
+Contributions are welcome!
+
+1. Check for open issues or open a fresh issue to start a discussion around a feature idea or a bug.
+2. Fork the repository to start making your changes to the master branch (or branch off of it).
+3. I recommend to prepare a test which shows that the bug was fixed or that the feature works as expected.
+4. Send a pull request and bug the maintainer until it gets merged and published. :smiley:
+
+## Contact
+
+Have some questions? Found a bug? Create [new issue](https://github.com/koder101/Utility_Installer_ForMultipleVMs/issues/new).
+
+## License
+
+Winium is released under the MIT license. See [LICENSE](LICENSE) for details.
 
