@@ -1,13 +1,17 @@
+
+<p align="right">
+User guide and description
+</p>
+
 # Utility Installer ForMultipleVMs - A simple PowerShell Script to automate the utility installations on domain joined Virtual Machines.
 
 
 ## Release Notes
--------------
 
 [Located at github.com/koder101/Utility_Installer_ForMultipleVMs](https://github.com/koder101/Utility_Installer_ForMultipleVMs/)
 
 ## Features
---------
+
 - This utilities can be Installed silently without user intervention to click the UI.
 > See `Important Note` for more details.
 - This script is quite generic to support many type of utility installations.
@@ -18,7 +22,7 @@
 
 
 ## Quick Start
---------
+
 1. Clone the project to your local.
 2. Open and configure the `UtilityLists.csv` file.
 > - `SourceFolder`	: The Source machine folder path where individual utility folder will be present. This will contain the utility executable and the corresponding Installer batch file.
@@ -37,7 +41,7 @@
 
 
 ## Important Note:
---------
+
 1. Preparing the individual utility's silent Installer bat is a separate task.
 2. Since different utilities can have their own commands for silent Install or UnInstall, hence it should be identified in advance, though it's a one time activity.
 3. For installation of products like MS-Office or SharePoint desiigner, use their XML config files to configure silent installation.
