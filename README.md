@@ -28,8 +28,7 @@ User guide and description
 > - `SourceFolder`	: The Source machine folder path where individual utility folder will be present. This will contain the utility executable and the corresponding Installer batch file.
 > - `TargetFolder`		: The Target machine folder path where each utility folder will be copied.
 > - `InstallerBat`		: The name of the Installer batch file of each utility.
-> - `InstallerBat`		: The name of the Installer batch file of each utility.
-> - `TargetMachineName`	: The domained joined target Machine name.
+> - `TargetMachineName`	: The domain joined target Machine name.
 > - `IsInstall`			: The boolean parameter which determines the install or uninstall of the utility. 1 = Install; 0 = UnInstall.
 
 3. Prepare the individual utility's Installer batch file with Install and UnInstall commands as included in the sample.
@@ -44,8 +43,8 @@ User guide and description
 
 1. Preparing the individual utility's silent Installer bat is a separate task.
 2. Since different utilities can have their own commands for silent Install or UnInstall, hence it should be identified in advance, though it's a one time activity.
-3. For installation of products like MS-Office or SharePoint desiigner, use their XML config files to configure silent installation.
-4. Some utility's silent installation works well with `Invoke-Command` and some with `PSTools`. Most of the utilities can be installed via `Invoke-Command`, if not then use the `PSTools`. For this change in the PowerShell script.
+3. For installation of products like MS-Office or SharePoint designer, use their XML config files to configure the silent installation.
+4. Some utility's silent installation works well with `Invoke-Command` and some with `PSTools`. Most of the utilities can be installed via `Invoke-Command`, if not, then use the `PSTools`. For this, the change is required in the PowerShell script.
 
 
 ## Contributing
