@@ -3,7 +3,7 @@
 User guide and description
 </p>
 
-# Utility Installer ForMultipleVMs - A simple PowerShell Script to automate the utility installations on domain joined Virtual Machines.
+## Utility Installer ForMultipleVMs - A simple PowerShell Script to automate the utility installations on domain joined Virtual Machines.
 
 
 ## Release Notes
@@ -12,13 +12,13 @@ User guide and description
 
 ## Features
 
-- This utilities can be Installed silently without user intervention to click the UI.
+- This utilities can be Installed/UnInstalled silently without user intervention to click the UI.
 > See `Important Note` for more details.
 - This script is quite generic to support many type of utility installations.
 - The same script can also be used to UnInstall the utilities based on config value in the input file.
 - The scipt uses two ways to trigger the Installation -
-> Invoke-Command
-> PSTools [available here](https://docs.microsoft.com/en-us/sysinternals/downloads/pstools/)
+ >  Invoke-Command
+ >  PSTools [available here](https://docs.microsoft.com/en-us/sysinternals/downloads/pstools/)
 
 
 ## Quick Start
@@ -63,5 +63,5 @@ Have some questions? Found a bug? Create [new issue](https://github.com/koder101
 
 ## License
 
-Winium is released under the MIT license. See [LICENSE](LICENSE) for details.
+This tool is released under the MIT license. See [LICENSE](LICENSE) for details.
 
